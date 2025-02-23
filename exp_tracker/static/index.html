@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <!-- CSS tah load korbo -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <div class="total-container">
+        <!-- Total amount tah aikhane show korbo -->
+      <h2>Total: $<span id="total-amount">0.00</span></h2>
+    </div>
+    <form id="expense-form">
+        <!-----Description, Amount, Type gulo aikhane input nebo---->
+      <input type="text" id="description" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount" step="0.01" required>
+      <select id="type" required> <!-- earn korche na deduct korche choose korbo -->
+        <option value="earned">Earned</option>
+        <option value="deducted">Deducted</option>
+      </select>
+      <button type="submit">Add Transaction</button>
+    </form>
+    <!-- Expenses table tah show korbo -->
+    <table id="expenses-table">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Expenses gulo aikhane show korbo -->
+      </tbody>
+    </table>
+  </div>
+  <!-- JavaScript tah load korbo -->
+  <script src="/static/script.js"></script>
+</body>
+</html>

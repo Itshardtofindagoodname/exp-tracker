@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .total-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .total-container h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+  }
+  
+  .earned {
+    color: green;
+  }
+  
+  .deducted {
+    color: red;
+  }
