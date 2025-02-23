@@ -86,7 +86,7 @@ The application uses MongoDB as the database. The connection configuration is in
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://welpicu:AvbECLO0fcMsWeQn@cluster0.u1ufd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "uri"
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 # Test the connection
