@@ -17,7 +17,7 @@ async def read_index():
     return FileResponse("static/index.html")
 
 # MongoDB configuration (tor config tah use koris that you'll get from your MongoDB deployment)
-uri = "uri"
+uri = "mongodb+srv://Pratyusha:Pratyusha%402004@cluster0.7wofj.mongodb.net/?appName=Cluster0"
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 # Test MongoDB connection
